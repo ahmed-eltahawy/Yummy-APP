@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./image/stock-vector-yummy-face-happy-smile-vector-cartoon-line-emoticon-with-tongue-lick-mouth-delicious-tasty-food-1832487004.png" type="image/x-icon" />
+    <title>Yummy</title>
+</head>
+<body>
+    <div class="sideNavbar vh-100 d-flex ">
+        <div class="navebar  ">
+            <ul>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="category.html" id="categoryLink">Catigories</a></li>
+                <li><a href="area.html">Area</a></li>
+                <li><a href="ingredients.html">Ingredients</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <div class="socialIcon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+
+            </div>
+        </div>
+        <div class="logo vh-100">
+                <img src="image/stock-vector-yummy-face-happy-smile-vector-cartoon-line-emoticon-with-tongue-lick-mouth-delicious-tasty-food-1832487004.jpg"
+                 alt="logo" class=" logoImg" >
+                <div class="hoo">
+                    <i class="fa-solid fa-bars logoIcon d-block" id="menubtn"></i>
+                    <i class="fa-solid fa-xmark logoIcon d-none" id="xbtn"></i>
+                </div>
+                <div class="wenIcon">
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex align-items-center justify-content-center  vh-100 ">
+        <div class="container w-75" id="homeContact">
+            <div class="row gy-4 pb-5 " id="bodyContact">
+                <div class="col-md-6">
+                    <input id="nameInput" type="text" class="form-control" placeholder="Enter Your Name">
+                    <p id="alertName" class=" d-none p-2 m-1 alert alert-danger">Name is not valid *start with capital*</p>
+                </div>
+                <div class="col-md-6">
+                    <input id="emailInput" type="text" class="form-control" placeholder="Enter Your Email">
+                    <p id="alertEmail" class=" d-none p-2 m-1 alert alert-danger">Email is not valid **</p>
+                </div>
+                <div class="col-md-6">
+                    <input id="phoneInput" type="number" class="form-control" placeholder="Enter Your Phone">
+                    <p id="alertPhone" class=" d-none p-2 m-1 alert alert-danger">Name is not valid *start with capital*</p>
+                </div>
+                <div class="col-md-6">
+                    <input id="ageInput" type="number" class="form-control" placeholder="Enter Your Age">
+                    <p id="alertAge" class=" d-none p-2 m-1 alert alert-danger">Name is not valid *start with capital*</p>
+                </div>
+                <div class="col-md-6">
+                    <input id="passInput" type="password" class="form-control" placeholder="Enter Your Password">
+                    <p id="alertPass" class=" d-none p-2 m-1 alert alert-danger">Name is not valid *start with capital*</p>
+                </div>
+                <div class="col-md-6">
+                    <input id="repassInput" type="password" class="form-control" placeholder="Repassword">
+                    <p id="alertRePass" class=" d-none p-2 m-1 alert alert-danger">Name is not valid *start with capital*</p>
+                </div>
+    
+                
+            </div>
+            <div id="btnsubmit" class="d-flex justify-content-center d-none">
+                <button  class="btn btn-outline-danger">Submit</button>
+            </div>
+            <div id="pSubmit" class="d-flex justify-content-center d-block">
+                <p  class="pSubmit rounded-1">Submit</p>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./image/stock-vector-yummy-face-happy-smile-vector-cartoon-line-emoticon-with-tongue-lick-mouth-delicious-tasty-food-1832487004.png" type="image/x-icon" />
+    <title>Yummy</title>
+</head>
+<body>
+    <div class="sideNavbar vh-100 d-flex ">
+        <div class="navebar  ">
+            <ul>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="category.html" id="categoryLink">Catigories</a></li>
+                <li><a href="area.html">Area</a></li>
+                <li><a href="ingredients.html">Ingredients</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <div class="socialIcon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+
+            </div>
+        </div>
+        <div class="logo vh-100">
+                <img src="image/stock-vector-yummy-face-happy-smile-vector-cartoon-line-emoticon-with-tongue-lick-mouth-delicious-tasty-food-1832487004.jpg"
+                 alt="logo" class=" logoImg" >
+                <div class="hoo">
+                    <i class="fa-solid fa-bars logoIcon d-block" id="menubtn"></i>
+                    <i class="fa-solid fa-xmark logoIcon d-none" id="xbtn"></i>
+                </div>
+                <div class="wenIcon">
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+        </div>
+    </div>
+
+   
+
+    <div class="container SearchBody d-block " id="searchInputs">
+        <div class="row gy-3">
+            <div class=" col-xl-6 col-lg-12 ">
+                <input type="text" class="form-control searchInput" placeholder="Search By Name" id="inputName">
+            </div>
+            <div class=" col-xl-6 col-lg-12 ">
+                <input type="text" class="form-control searchInput" placeholder="Search By First Litter" id="inputLitter">
+            </div>
+        </div>
+    </div>
+    <div class="container d-block" id="homeSearch">
+        <div class="row gy-4 pb-5" id="bodySearch" >
+            <!-- <div class="col-md-3">
+                <div class="imagHome rounded-3">
+                    <img src="image/58oia61564916529.jpg" alt="" class="w-100 ">
+                    <div class="layer d-flex align-items-center">
+                        <h3 class="ps-2">Corba</h3>
+                    </div>
+                </div>
+            </div> -->
+
+            
+        </div>
+    </div>
+
+
+
+    <div class="details d-none" id="searchDetails">
+        <div class="container py-5">
+            <div class="row" id="searchDetailsBody">
+                <!-- <div class="col-md-4">
+                    <div class="imgDetails ">
+                        <img src="image/58oia61564916529.jpg" alt="" class="w-100 rounded-3">
+                        <h2 class="text-white">Corba</h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="text-white">Instructions</h2>
+                    <p class="text-white">Pick through your lentils for any foreign debris, rinse them 2 or 3 times, drain, and set aside. Fair warning, this will probably turn your lentils into a solid block that you’ll have to break up later In a large pot over medium-high heat, sauté the olive oil and the onion with a pinch of salt for about 3 minutes, then add the carrots and cook for another 3 minutes. Add the tomato paste and stir it around for around 1 minute. Now add the cumin, paprika, mint, thyme, black pepper, and red pepper as quickly as you can and stir for 10 seconds to bloom the spices. Congratulate yourself on how amazing your house now smells. Immediately add the lentils, water, broth, and salt. Bring the soup to a (gentle) boil. After it has come to a boil, reduce heat to medium-low, cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are completely cooked. After the soup has cooked and the lentils are tender, blend the soup either in a blender or simply use a hand blender to reach the consistency you desire. Taste for seasoning and add more salt if necessary. Serve with crushed-up crackers, torn up bread, or something else to add some extra thickness. You could also use a traditional thickener (like cornstarch or flour), but I prefer to add crackers for some texture and saltiness. Makes great leftovers, stays good in the fridge for about a week.</p>
+                    <h3 class="text-white">Area:Turkish</h3>
+                    <h3 class="text-white">Category:Side</h3>
+                    <h3 class="text-white">Recipes:</h3>
+                    <ul class="list-unstyled d-flex g-3 flex-wrap">
+                        <li class="m-2 p-1 alert alert-info">1 cup Lentils</li>
+                        <li class="m-2 p-1 alert alert-info">1 large Onion</li>
+                        <li class="m-2 p-1 alert alert-info">1 large Carrots</li>
+                        <li class="m-2 p-1 alert alert-info">1 tbs Tomato Puree</li>
+                        <li class="m-2 p-1 alert alert-info">2 tsp Cumin</li>
+                        <li class="m-2 p-1 alert alert-info" >1 tsp Paprika</li>
+                        <li class="m-2 p-1 alert alert-info">1/2 tsp Mint</li>
+                        <li class="m-2 p-1 alert alert-info">1/2 tsp Thyme</li>
+                        <li class="m-2 p-1 alert alert-info">1/4 tsp Black Pepper</li>
+                        <li class="m-2 p-1 alert alert-info">1/4 tsp Red Pepper Flakes</li>
+                        <li class="m-2 p-1 alert alert-info">4 cups Vegetable Stock</li>
+                        <li class="m-2 p-1 alert alert-info">1 cup Water</li>
+                        <li class="m-2 p-1 alert alert-info">Pinch Sea Salt</li>
+                    </ul>
+                    <h3 class="text-white mb-3">Tags :</h3>
+                    <p class="m-2 p-1 alert alert-danger d-inline">Soup</p>
+                    <div class="d-flex mt-4">
+                        <a href="" class="m-2 px-3 py-2 btn btn-success">Source</a>
+                        <a href="" class="m-2 px-3 py-2 btn btn-danger">Youtube</a>
+                    </div>
+                   
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
